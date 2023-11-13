@@ -1,0 +1,32 @@
+.standard_placeholder_container img {
+  width: 100%;
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  align-items: stretch; /* or center, flex-start, etc. */
+  gap: 0px;
+  border: none;
+  outline: none;
+}
+
+.standard_placeholder_container {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  align-items: stretch; /* or center, flex-start, etc. */
+  gap: 0px;
+  border: none;
+  outline: none;
+}
+.standard_placeholder_container a {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  align-items: stretch; /* or center, flex-start, etc. */
+  gap: 0px;
+  border: none;
+  outline: none;
+}

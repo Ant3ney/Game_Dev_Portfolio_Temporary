@@ -1,0 +1,11 @@
+.nav_container img {
+  width: 100%;
+}
+
+.nav_container {
+  width: 100%;
+}
+
+.nav_container a {
+  display: flex;
+}

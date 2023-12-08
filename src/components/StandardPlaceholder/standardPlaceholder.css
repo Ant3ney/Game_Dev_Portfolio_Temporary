@@ -20,6 +20,9 @@
   border: none;
   outline: none;
 }
+.standard_placeholder_container {
+  display: flex;
+}
 .standard_placeholder_container a {
   width: 100%;
   display: block;
@@ -29,4 +32,8 @@
   gap: 0px;
   border: none;
   outline: none;
+}
+
+.standard_placeholder_container a.split {
+  width: 50%;
 }

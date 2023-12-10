@@ -24,11 +24,12 @@ function StandardPlaceholder({
         href={link}
         className={`${splitForDsk ? "split" : ""}`}
         target="_blank"
+        rel="noreferrer"
       >
         <img src={trueSrc} alt="navigation" />
       </a>
       {src2 && (
-        <a href={link2} className="split" target="_blank">
+        <a href={link2} className="split" target="_blank" rel="noreferrer">
           <img src={src2} alt="navigation" />
         </a>
       )}

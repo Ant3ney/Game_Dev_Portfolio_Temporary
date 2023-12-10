@@ -20,11 +20,15 @@ function StandardPlaceholder({
     <div
       className={`standard_placeholder_container ${splitForDsk ? "split" : ""}`}
     >
-      <a href={link} className={`${splitForDsk ? "split" : ""}`}>
+      <a
+        href={link}
+        className={`${splitForDsk ? "split" : ""}`}
+        target="_blank"
+      >
         <img src={trueSrc} alt="navigation" />
       </a>
       {src2 && (
-        <a href={link2} className="split">
+        <a href={link2} className="split" target="_blank">
           <img src={src2} alt="navigation" />
         </a>
       )}

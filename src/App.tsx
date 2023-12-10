@@ -11,124 +11,130 @@ function App() {
       <StandardPlaceholder
         src="images/nav.png"
         srcMob="images/NavMob.png"
-        link="#"
+        link="https://linktr.ee/Ant3ney"
       />
       <StandardPlaceholder
         src="images/LandingScreen.png"
         srcMob="images/LandingScreenMob.png"
-        link="#"
+        link="https://ant3ney.itch.io"
       />
       <StandardPlaceholder
         src="images/PivitalContent.png"
-        link="#"
+        link=""
         srcMob="images/PivitalContentMob.png"
       />
       <StandardPlaceholder
         src="images/PSAGLanding.png"
         srcMob="images/PSAGLandingMob.png"
-        link="#"
+        link="https://ant3ney.itch.io/pokemon-sand-and-gravel"
       />
       <StandardPlaceholder
         src="images/PSAGDetailedDisplay.png"
         srcMob="images/PSAGDetailedDisplayMob.png"
-        link="#"
+        link=""
       />
       <StandardPlaceholder
         src="images/PSAGSlides.png"
         srcMob="images/PSAGSlidesMob.png"
-        link="#"
+        link="https://www.youtube.com/watch?v=o_KZkODirT8"
       />
       <StandardPlaceholder
         src="images/CapyLanding.png"
         srcMob="images/CapyLandingMob.png"
-        link="#"
+        link="https://ant3ney.itch.io/capy-the-flying-capybara"
       />
       <StandardPlaceholder
         src="images/CapyDetailedDisplay.png"
         srcMob="images/CapyDetailedDisplayMob.png"
-        link="#"
+        link=""
       />
       <StandardPlaceholder
         src="images/CapySlides.png"
         srcMob="images/CapySlidesMob.png"
-        link="#"
+        link="https://www.youtube.com/watch?v=OMQfexKSOQE"
       />
       <StandardPlaceholder
         src="images/SpongeLanding.png"
         srcMob="images/SpongeLandingMob.png"
-        link="#"
+        link="https://ant3ney.itch.io/the-spongelands"
       />
       <StandardPlaceholder
         src="images/SpongeDetailedDisplay.png"
         srcMob="images/SpongeDetailedDisplayMob.png"
-        link="#"
+        link=""
       />
       <StandardPlaceholder
         src="images/SpongeSlides.png"
         srcMob="images/SpongeSlidesMob.png"
-        link="#"
+        link="https://www.youtube.com/watch?v=0_cE24HsBMM"
       />
       <StandardPlaceholder
         src="images/ChimpLanding.png"
         srcMob="images/ChimpLandingMob.png"
-        link="#"
+        link=""
       />
       <StandardPlaceholder
         src="images/ChimpDetailedDisplay.png"
         srcMob="images/ChimpDetailedDisplayMob.png"
-        link="#"
+        link=""
       />
       <StandardPlaceholder
         src="images/ChimpSlides.png"
         srcMob="images/ChimpSlidesMob.png"
-        link="#"
+        link="https://www.youtube.com/watch?v=F_o8MB5ITp8"
       />
       <StandardPlaceholder
         src="images/GravityLanding.png"
         srcMob="images/GravityLandingMob.png"
-        link="#"
+        link="https://ant3ney.itch.io/gravity"
       />
       <StandardPlaceholder
         src="images/GravityDetailedDisplay.png"
         srcMob="images/GravityDetailedDisplayMob.png"
-        link="#"
+        link=""
       />
       <StandardPlaceholder
         src="images/GravitySlides.png"
         srcMob="images/GravitySlidesMob.png"
-        link="#"
+        link="https://www.youtube.com/watch?v=cuDFUpQEyYw"
       />
       <StandardPlaceholder
         src="images/JoinNewsLetter.png"
         srcMob="images/JoinNewsLetterMob.png"
-        link="#"
+        link="mailto:anthonycavuoti@gmail.com?subject=I want to join your Game Development newsletter!&body=I would like to get updated when you release new games and announce new projects"
       />
       {/* ContactMeContentLeft.png */}
       {!isMobile ? (
         <>
-          <StandardPlaceholder src="images/ContactMeTitle.png" link="#" />
+          <StandardPlaceholder src="images/ContactMeTitle.png" link="" />
           <StandardPlaceholder
             src="images/ContactMeContentLeft.png"
             src2="images/ContactMeContentRight.png"
-            link="#"
-            link2="#"
+            link="https://linktr.ee/Ant3ney"
+            link2="mailto:anthonycavuoti@gmail.com?subject=Contact Message from Game Dev Portfolio!"
             settings={{ dskSplit: true }}
           />
         </>
       ) : (
         <>
-          <StandardPlaceholder srcMob="images/ContactInfoMob.png" link="#" />
-          <StandardPlaceholder src="images/DirectMessageMob.png" link="#" />
+          <StandardPlaceholder
+            srcMob="images/ContactInfoMob.png"
+            link="https://linktr.ee/Ant3ney"
+          />
+          <StandardPlaceholder
+            src="images/DirectMessageMob.png"
+            link="mailto:anthonycavuoti@gmail.com?subject=Contact Message from Game Dev Portfolio!"
+          />
         </>
       )}
       <StandardPlaceholder
         src="images/ScheduleInterview.png"
         srcMob="images/ScheduleInterviewMob.png"
-        link="#"
+        link="https://calendly.com/anthonycavuoti/scheduleinterview"
       />
       <StandardPlaceholder
         src="images/Transition.png"
-        link="#"
+        link=""
         srcMob="images/TransitionMob.png"
       />
       <StandardPlaceholder
@@ -140,25 +146,31 @@ function App() {
         <StandardPlaceholder
           src="images/Card1.png"
           src2="images/Card2.png"
-          link="#"
-          link2="#"
+          link="https://cdn.sanity.io/files/ld8etup6/production/040742abf74506d05c3485be2bdb1f8be8eefca1.pdf"
+          link2="https://cdn.sanity.io/files/ld8etup6/production/040742abf74506d05c3485be2bdb1f8be8eefca1.pdf"
           settings={{ dskSplit: true }}
         />
       ) : (
         <>
-          <StandardPlaceholder srcMob="images/Card1Mob.png" link="#" />
-          <StandardPlaceholder srcMob="images/Card2Mob.png" link="#" />
+          <StandardPlaceholder
+            srcMob="images/Card1Mob.png"
+            link="https://cdn.sanity.io/files/ld8etup6/production/040742abf74506d05c3485be2bdb1f8be8eefca1.pdf"
+          />
+          <StandardPlaceholder
+            srcMob="images/Card2Mob.png"
+            link="https://cdn.sanity.io/files/ld8etup6/production/040742abf74506d05c3485be2bdb1f8be8eefca1.pdf"
+          />
         </>
       )}
       <StandardPlaceholder
         src="images/ContactInfoCore.png"
         srcMob="images/ContactInfoCoreMob.png"
-        link="#"
+        link="https://linktr.ee/Ant3ney"
       />
       <StandardPlaceholder
         src="images/PoweredBy.png"
         srcMob="images/PoweredByMob.png"
-        link="#"
+        link="https://www.singularityplanet.com/"
       />
     </div>
   );

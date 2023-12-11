@@ -154,11 +154,11 @@ function App() {
         <>
           <StandardPlaceholder
             srcMob="images/Card1Mob.png"
-            link="https://cdn.sanity.io/files/ld8etup6/production/040742abf74506d05c3485be2bdb1f8be8eefca1.pdf"
+            link="https://cdn.sanity.io/files/ld8etup6/production/b2e0029633a1e154a649a46803bc93561b9a0978.pdf"
           />
           <StandardPlaceholder
             srcMob="images/Card2Mob.png"
-            link="https://cdn.sanity.io/files/ld8etup6/production/040742abf74506d05c3485be2bdb1f8be8eefca1.pdf"
+            link="https://cdn.sanity.io/files/ld8etup6/production/b2e0029633a1e154a649a46803bc93561b9a0978.pdf"
           />
         </>
       )}

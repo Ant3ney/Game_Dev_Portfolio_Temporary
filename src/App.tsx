@@ -146,19 +146,19 @@ function App() {
         <StandardPlaceholder
           src="images/Card1.png"
           src2="images/Card2.png"
-          link="https://cdn.sanity.io/files/ld8etup6/production/040742abf74506d05c3485be2bdb1f8be8eefca1.pdf"
-          link2="https://cdn.sanity.io/files/ld8etup6/production/040742abf74506d05c3485be2bdb1f8be8eefca1.pdf"
+          link="https://cdn.sanity.io/files/ld8etup6/production/9828185c82d9cce23faa0b1d066061e6a343dd47.pdf"
+          link2="https://cdn.sanity.io/files/ld8etup6/production/9828185c82d9cce23faa0b1d066061e6a343dd47.pdf"
           settings={{ dskSplit: true }}
         />
       ) : (
         <>
           <StandardPlaceholder
             srcMob="images/Card1Mob.png"
-            link="https://cdn.sanity.io/files/ld8etup6/production/b2e0029633a1e154a649a46803bc93561b9a0978.pdf"
+            link="https://cdn.sanity.io/files/ld8etup6/production/9828185c82d9cce23faa0b1d066061e6a343dd47.pdf"
           />
           <StandardPlaceholder
             srcMob="images/Card2Mob.png"
-            link="https://cdn.sanity.io/files/ld8etup6/production/b2e0029633a1e154a649a46803bc93561b9a0978.pdf"
+            link="https://cdn.sanity.io/files/ld8etup6/production/9828185c82d9cce23faa0b1d066061e6a343dd47.pdf"
           />
         </>
       )}

@@ -1,5 +1,6 @@
 import "./standardPlaceholder.css";
 import useIsMobile from "components/useIsMobile";
+import { BrowserRouter, Routes, Route, Link, useNavigate, Navigate } from "react-router-dom";
 
 function StandardPlaceholder({
   src,
@@ -8,9 +9,10 @@ function StandardPlaceholder({
   linkMob,
   src2,
   link2,
+  routerLink,
   settings,
 }: any) {
-  const { dskSplit }: any = settings || {};
+  const { dskSplit  }: any = settings || {};
   const isMobile: boolean = useIsMobile();
 
   const splitForDsk = !isMobile && dskSplit;
@@ -20,14 +22,14 @@ function StandardPlaceholder({
     <div
       className={`standard_placeholder_container ${splitForDsk ? "split" : ""}`}
     >
-      <a
+    {!routerLink ? (<a
         href={link}
         className={`${splitForDsk ? "split" : ""}`}
         target="_blank"
         rel="noreferrer"
       >
         <img src={trueSrc} alt="navigation" />
-      </a>
+      </a>) : (<Link to={routerLink}><img src={trueSrc} alt="navigation" /></Link>)}
       {src2 && (
         <a href={link2} className="split" target="_blank" rel="noreferrer">
           <img src={src2} alt="navigation" />

@@ -1,9 +1,12 @@
 import React from 'react'
+import useIsMobile from "../useIsMobile";
 import { render } from 'react-dom'
 
 export default function PrimevalHorizon({
 	...rest
 }: any) {
+
+let bIsMobile = useIsMobile();
 return (
   <main
     style={{
@@ -98,9 +101,26 @@ return (
               </span>
             ))}
           </div>
+	{bIsMobile ? <div
+          style={{
+            borderRadius: 16,
+            overflow: "hidden",
+            boxShadow: "0 18px 40px rgba(0,0,0,.35)",
+            background:
+              "radial-gradient(120% 120% at 100% 0%, rgba(0,153,255,.25), rgba(0,0,0,0))",
+	    marginTop: "1em",
+          }}
+        >
+          <img
+            src="/images/pvh_banner.jpg"
+            alt="Primeval Horizon – gameplay montage"
+            style={{  width: "100%", height: "auto", display: "block" }}
+          />
+        </div> : <></>}
+
         </div>
 
-        <div
+	{!bIsMobile ? <div
           style={{
             borderRadius: 16,
             overflow: "hidden",
@@ -110,11 +130,11 @@ return (
           }}
         >
           <img
-            src="https://placehold.co/860x420/0b1a22/FFFFFF?text=Primeval+Horizon"
+            src="/images/pvh_banner.jpg"
             alt="Primeval Horizon – gameplay montage"
             style={{ width: "100%", height: "auto", display: "block" }}
           />
-        </div>
+        </div> : <></>}
       </div>
     </header>
 
